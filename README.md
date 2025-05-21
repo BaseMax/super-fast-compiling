@@ -36,7 +36,7 @@ python3 build.py \
   --jobs 8 \
   --cflags "-Wall -Wextra -g" \
   --ldflags "-lm" \
-  --run-args input.salam
+  --run-args --help
 ```
 
 ### Options
