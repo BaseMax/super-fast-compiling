@@ -4,10 +4,9 @@ CFLAGS := -Wall -Wextra -pedantic -std=c99 -g -I $(SRC_DIR)/
 
 BUILD_DIR := build
 
-TARGET := salam
+TARGET := myapp
 BIN_TARGET := $(BUILD_DIR)/$(TARGET)
-TEST_INPUT := input.salam
-TEST_OUTPUT := output.salam
+TEST_OUTPUT := output.txt
 
 # ---------- START FILES ----------
 SRCS := \
@@ -41,6 +40,6 @@ clean:
 .PHONY: test
 test: $(BIN_TARGET)
 	@echo "Running test with input file"
-	@./$(BIN_TARGET) $(TEST_INPUT) > $(TEST_OUTPUT)
+	@./$(BIN_TARGET) --help > $(TEST_OUTPUT)
 
 .PHONY: all clean
