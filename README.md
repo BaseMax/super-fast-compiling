@@ -46,11 +46,11 @@ python3 build.py \
 | `--compiler` | Compiler to use (e.g., `gcc`, `clang`, `tcc`) |
 | `--output` | Name of the final executable |
 | `--files` | Path to `.txt` file listing all `.c` files |
-| `--jobs` | Number of parallel jobs (defaults to 3 × CPU cores) |
+| `--jobs` | Number of parallel jobs (defaults CPU cores) |
 | `--clean` | Remove `.o` and `.hash` files before compiling |
 | `--run-args` | Arguments passed to the executable |
 | `--no-run` | Skip execution after building |
-| `--beautify-json` | Beautify `tokens.json` and `ast.json` (enabled by default) |
+| `--beautify-json` | Beautify your JSON files (enabled by default) |
 | `--cflags` | Custom C compiler flags |
 | `--ldflags` | Custom linker flags |
 | `--verbose` | Enable debug logging |
