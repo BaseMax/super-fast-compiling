@@ -9,7 +9,7 @@ It supports intelligent caching using source hashing, JSON output beautification
 - ✅ Parallel compilation with `ProcessPoolExecutor`
 - ✅ Smart cache using SHA-256 source file hashing
 - ✅ Optional cleanup before build
-- ✅ Beautifies `tokens.json` and `ast.json` if present and valid
+- ✅ Beautifies your JSON files if present and valid
 - ✅ Configurable compiler, flags, and output
 - ✅ Cross-platform (Windows, Linux, macOS)
 - ✅ Automatic executable runner after build (optional)
